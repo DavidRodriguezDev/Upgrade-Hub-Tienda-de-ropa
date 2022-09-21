@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.listado-menu {
+    margin-top: 10px;
+}
+
+.listado-menu li {
+    list-style: none;
+}
+
+.listado-completo {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    
+}
+
+.galeria {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card {
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 30px 5px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.active {
+    color: red;
+}
+
+h4, .precio {
+    font-size: .75rem;
+}
+
+h5 {
+    margin-bottom: 10px;
+}
+
+.promocion {
+    text-align: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 40px;
+    padding: 30px;
+}
+
+.descuento {
+    font-weight: bold;
+}
+
+.contacto {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+}
+
+.mail {
+    font-size: .75rem;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 40px;
+}
+
+footer ul li {
+    list-style: none;
+}
